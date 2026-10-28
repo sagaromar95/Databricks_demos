@@ -1,5 +1,4 @@
 -- Run after the benchmark records become available in system.query.history.
--- Export all 18 rows; retain warm-ups so the run can be checked.
 SELECT
     statement_id,
     workspace_id,
